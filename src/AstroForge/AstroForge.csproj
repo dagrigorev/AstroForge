@@ -1,26 +1,32 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+    
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageId>AstroForge</PackageId>
     <Title>AstroForge</Title>
+    <Version>0.1.0</Version>
     <Description>Modern .NET 8 astrology and chart engine with analytical ephemeris providers.</Description>
-    <Authors>OpenAI</Authors>
-    <Company>OpenAI</Company>
+    <Authors>Dmitry Grigorev</Authors>
+    <Company>Dmitry Grigorev</Company>
     <PackageTags>astrology astronomy chart ephemeris zodiac horoscope</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <PackageProjectUrl>https://example.invalid/astroforge</PackageProjectUrl>
-    <RepositoryUrl>https://example.invalid/astroforge</RepositoryUrl>
+
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/dagrigorev/AstroForge</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dagrigorev/AstroForge</RepositoryUrl>
+    
     <AssemblyName>AstroForge</AssemblyName>
     <RootNamespace>AstroForge</RootNamespace>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="../../README.md" Pack="true" PackagePath="/" />
-    <None Include="../../LICENSE" Pack="true" PackagePath="/" />
+    <None Include="README.md" Pack="true" PackagePath="/" />
+    <None Include="LICENSE" Pack="true" PackagePath="/" />
   </ItemGroup>
 </Project>
