@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AstroForge/AstroForge.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AstroForge.Tests/AstroForge.Tests.csproj" />
+  </Folder>
+</Solution>
